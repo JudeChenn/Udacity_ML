@@ -8,5 +8,9 @@
 *.jpeg
 *.hdf5
 dog-project-master/CODEOWNERS
-dog-project-master/requirements/*
+*/requirements/*
 dog-project-master/haarcascades/*
+*.pkl
+*.txt
+*.com
+ud120-projects-master/practice_projects/naive_bayes_tutorial/smsspamcollection/SMSSpamCollection
