@@ -2,3 +2,11 @@
 *.csv
 *.md
 *.png
+*.npz
+*.jpg
+*.yml
+*.jpeg
+*.hdf5
+dog-project-master/CODEOWNERS
+dog-project-master/requirements/*
+dog-project-master/haarcascades/*
