@@ -73,7 +73,7 @@ class LearningAgent(Agent):
             maximum Q-value of all actions based on the 'state' the smartcab is in. """
         
         # Calculate the maximum Q-value of all actions for a given state
-        # If same value, randomly choose the key
+        # If same value, randomly choose the key (tie-breaker)
         sortQ = sorted(self.Q[state].items(), key=lambda x: (x[1], random.random()), reverse=True)
         
         # Get action with max Q-value
